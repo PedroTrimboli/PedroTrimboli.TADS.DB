@@ -50,7 +50,8 @@ CREATE TABLE LIVRO_AUTOR (
     FOREIGN KEY (ISBN) REFERENCES LIVRO(ISBN),
     FOREIGN KEY (ID_Autor) REFERENCES AUTOR(ID_Autor)
 );
-
+```
 ---
+## 📊 Diagrama do Banco de Dados
 
 ![Diagrama do Banco](https://github.com/user-attachments/assets/45f30a8c-948c-4421-af84-2e7e7d0d72ef)
