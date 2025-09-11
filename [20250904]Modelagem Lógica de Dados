@@ -1,0 +1,55 @@
+# 📚 [20250904]Modelagem Lógica de Dados
+
+---
+
+## 📌 Script SQL
+
+```sql
+CREATE TABLE ALUNO (
+    RA VARCHAR(20) PRIMARY KEY,
+    Nome VARCHAR2(100),
+    Curso VARCHAR2(100),
+    Email VARCHAR2(100)
+);
+
+CREATE TABLE LIVRO (
+    ISBN VARCHAR2(20) PRIMARY KEY,
+    Titulo VARCHAR2(200),
+    Ano_Publicacao NUMBER
+);
+
+CREATE TABLE AUTOR (
+    ID_Autor NUMBER PRIMARY KEY,
+    Nome VARCHAR2(100),
+    Nacionalidade VARCHAR2(50)
+);
+
+CREATE TABLE EXEMPLAR (
+    ID_Exemplar NUMBER PRIMARY KEY,
+    Estado VARCHAR2(50),
+    Disponibilidade VARCHAR2(10),
+    ISBN VARCHAR2(20),
+    FOREIGN KEY (ISBN) REFERENCES LIVRO(ISBN)
+);
+
+CREATE TABLE EMPRESTIMO (
+    ID_Emprestimo NUMBER PRIMARY KEY,
+    RA VARCHAR2(20),
+    ID_Exemplar NUMBER,
+    Data_Retirada DATE,
+    Data_Prevista DATE,
+    Data_Devolucao DATE,
+    FOREIGN KEY (RA) REFERENCES ALUNO(RA),
+    FOREIGN KEY (ID_Exemplar) REFERENCES EXEMPLAR(ID_Exemplar)
+);
+
+CREATE TABLE LIVRO_AUTOR (
+    ISBN VARCHAR2(20),
+    ID_Autor NUMBER,
+    PRIMARY KEY (ISBN, ID_Autor),
+    FOREIGN KEY (ISBN) REFERENCES LIVRO(ISBN),
+    FOREIGN KEY (ID_Autor) REFERENCES AUTOR(ID_Autor)
+);
+
+---
+
