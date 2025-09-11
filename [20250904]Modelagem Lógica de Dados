@@ -6,7 +6,7 @@
 
 ```sql
 CREATE TABLE ALUNO (
-    RA VARCHAR(20) PRIMARY KEY,
+    RA VARCHAR2(20) PRIMARY KEY,
     Nome VARCHAR2(100),
     Curso VARCHAR2(100),
     Email VARCHAR2(100)
@@ -53,3 +53,4 @@ CREATE TABLE LIVRO_AUTOR (
 
 ---
 
+![Diagrama do Banco](https://github.com/user-attachments/assets/45f30a8c-948c-4421-af84-2e7e7d0d72ef)
