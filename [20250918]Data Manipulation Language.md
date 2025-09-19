@@ -1,3 +1,6 @@
+##  CRIANDO TABELAS
+
+
 -- Tabela de Clientes
 
 ```sql
@@ -37,7 +40,7 @@ CREATE TABLE VENDAS (
 ```
 -----------------------------------------------------------------------------------------------------------------------------
 
--- INSERINDO DADOS
+## INSERINDO DADOS
 
 
 -- Inserindo dados em clientes
@@ -82,12 +85,17 @@ VALUES (2, 1, 650000);
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+## UPDATE
+
+
 -- UPDATE NOS VALORES DOS CARROS: + 10% EM TODOS OS PREÇOS
 
 ```sql
 UPDATE CARROS SET PRECO = PRECO * 1.1;
 ```
 -----------------------------------------------------------------------------------------------------------------------------
+
+## DELET
 
 -- DELETANDO VENDAS
 
@@ -97,7 +105,7 @@ WHERE id = 3;
 ```
 -----------------------------------------------------------------------------------------------------------------------------
 
--- MERGE (PROFESSOR MEUS 0,5 PONTOS) :)
+## MERGE (PROFESSOR MEUS 0,5 PONTOS) :)
 
 
 -- CRIANDO TABELA _STG
@@ -133,4 +141,5 @@ WHEN MATCHED THEN
 WHEN NOT MATCHED THEN
    INSERT (NOME, TELEFONE, EMAIL)
    VALUES (s.NOME, NULL, s.EMAIL); 
+
 ```
