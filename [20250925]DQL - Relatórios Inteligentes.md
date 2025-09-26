@@ -1,4 +1,4 @@
-##🧩 Exercício A:
+## 🧩 Exercício A:
 
 ```sql
 SELECT produto, valor, data_venda
@@ -9,7 +9,7 @@ ORDER BY data_venda;
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-##🧩 Exercício B:
+## 🧩 Exercício B:
 
 ```sql
 SELECT SUM(valor) AS total_eletronicos
@@ -19,7 +19,7 @@ WHERE categoria = 'Eletrônicos';
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-##🧩 Exercício C:
+## 🧩 Exercício C:
 
 ```sql
 SELECT produto, valor
@@ -29,7 +29,7 @@ WHERE valor BETWEEN 200 AND 1000;
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-##🧩 Exercício D(Desafio):
+## 🧩 Exercício D(Desafio):
 
 ```sql
 SELECT 
@@ -39,4 +39,5 @@ SELECT
 FROM VENDAS
 GROUP BY vendedor
 ORDER BY total_vendido DESC;
+
 ```
