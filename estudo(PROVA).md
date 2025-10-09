@@ -75,7 +75,7 @@ Mostra o que o sistema precisa armazenar e como tudo se relaciona, sem usar cód
 | **Mechanism (Mecanismo)** | Quem ou o que executa   | Funcionários, sistemas, banco de dados |
 
 
-** 👉 Em resumo: ** o IDEF0 serve pra entender e desenhar o funcionamento de um sistema ou empresa, antes de modelar os dados.
+ 👉 **Em resumo: ** o IDEF0 serve pra entender e desenhar o funcionamento de um sistema ou empresa, antes de modelar os dados.
 
 
 ## 4. Decomposição Funcional (A-0, A0, A1...)
@@ -523,5 +523,6 @@ para transformar dados em informação.
 - ``ROW_NUMBER()`` → gerar ranking por grupo
 
 ### 🧩 Resumindo tudo em 1 frase
+
 
 Subquery é uma consulta dentro de outra, usada para comparar, agrupar ou gerar relatórios mais inteligentes a partir dos próprios dados.
