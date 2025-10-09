@@ -141,13 +141,14 @@ Mostra o que o sistema precisa armazenar e como tudo se relaciona, sem usar cód
 
 ## 🧱 4. MER e DER
 
-| Tipo                                       | O que é               | O que mostra                   |
-| ------------------------------------------ | --------------------- | ------------------------------ |
-| **MER (Modelo Entidade-Relacionamento)**   | Desenho conceitual    | Entidades + relacionamentos    |
-| **DER (Diagrama Entidade-Relacionamento)** | Versão técnica do MER | Mostra PK, FK e cardinalidades |
+| Tipo                                       | O que é                                                                       | O que mostra                                                                                 |
+| ------------------------------------------ | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **MER (Modelo Entidade-Relacionamento)**   | Modelo **conceitual** e **lógico**, usado para **pensar e definir o sistema** | **Entidades, atributos e relacionamentos** (sem se preocupar ainda com chaves técnicas)      |
+| **DER (Diagrama Entidade-Relacionamento)** | **Representação visual e técnica** do MER (ou seja, o **desenho do modelo**)  | **PK (chaves primárias)**, **FK (chaves estrangeiras)** e **cardinalidades (1:1, 1:N, N:M)** |
 
 
-** MER = ideia**
+
+**MER = ideia**
 **DER = estrutura pronta pra virar banco**
 
 
