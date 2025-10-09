@@ -59,7 +59,7 @@ Mostra o que o sistema precisa armazenar e como tudo se relaciona, sem usar cód
 | **TCL** | Garante que as operações sejam seguras e completas (transações) |
 
 
-👉 **Em resumo:** DDL = estrutura, DML = dados, DQL = busca, DCL = permissões, TCL = segurança de transação.
+👉 Em resumo: DDL = estrutura, DML = dados, DQL = busca, DCL = permissões, TCL = segurança de transação.
 
 
 ## 3. IDEF0 (parte importante da modelagem de processos)
@@ -526,3 +526,4 @@ para transformar dados em informação.
 
 
 Subquery é uma consulta dentro de outra, usada para comparar, agrupar ou gerar relatórios mais inteligentes a partir dos próprios dados.
+
