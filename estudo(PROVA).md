@@ -149,6 +149,7 @@ Mostra o que o sistema precisa armazenar e como tudo se relaciona, sem usar cód
 
 
 **MER = ideia**
+
 **DER = estrutura pronta pra virar banco**
 
 
@@ -527,4 +528,5 @@ para transformar dados em informação.
 
 
 Subquery é uma consulta dentro de outra, usada para comparar, agrupar ou gerar relatórios mais inteligentes a partir dos próprios dados.
+
 
